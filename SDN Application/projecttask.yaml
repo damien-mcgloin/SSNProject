@@ -1,0 +1,9 @@
+task:
+  name: "SYN Flood Attack"
+  description: "Networks H1 - H8 are connected within the network via switch S1.
+    H1 and H2 will provide normal user traffic.
+    H3 will serve as the target of an attack.
+    H4 - H8 will generate attack traffic.
+    The application should drop packets sent by the attackers allowing users to transmit packets again."
+  scenario: "SYN Flood Attack"
+  examination: 0

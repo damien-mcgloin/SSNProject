@@ -1,0 +1,76 @@
+# do not change this
+root:
+
+  # the name of the scenario
+  name: "Syn Flood Attack Scenario"
+
+  # a short description that can be printed to console
+  description: "A simple topology with a 
+                single switch connecting eight hosts. Two
+                hosts represent normal users. One host
+                runs a webserver and represents the attack target.
+                Five hosts will send a flood of SYN traffic and they
+                represent the attackers."
+
+  # working directory for this scenario
+  working_directory: "SDN Application/projectscenario.yaml"
+
+  # specify the topology of the scenario
+  topology:
+
+    # the switches of the topology
+    switches:
+      - name: s1
+        dpid: 1
+        enabled: True
+
+    hosts:
+      - name: h1
+        ip: "10.0.0.1"
+      - name: h2
+        ip: "10.0.0.2"
+      - name: h3
+        ip: "10.0.0.3"
+      - name: h4
+        ip: "10.0.0.4"
+      - name: h5
+        ip: "10.0.0.5"
+      - name: h6
+        ip: "10.0.0.6"
+      - name: h7
+        ip: "10.0.0.7"
+      - name: h8
+        ip: "10.0.0.8"
+
+    links:
+      - [h1, s1, 1000]
+      - [h2, s1, 1000]
+      - [h3, s1, 1000]
+      - [h4, s1, 1000]
+      - [h5, s1, 1000]
+      - [h6, s1, 1000]
+      - [h7, s1, 1000]
+      - [h8, s1, 1000]
+      
+  networks:
+    - name: "h1"
+      alias: "H1"
+    - name: "h2"
+      alias: "H2"
+    - name: "h3"
+      alias: "H3"
+    - name: "h4"
+      alias: "H4"
+    - name: "h5"
+      alias: "H5"
+    - name: "h6"
+      alias: "H6"
+    - name: "h7"
+      alias: "H7"
+    - name: "h8"
+      alias: "H8"
+  
+  # traffic generation
+  traffic:
+    # specify all the profiles that should be used (in parallel!)
+    use_profiles: [] # None
