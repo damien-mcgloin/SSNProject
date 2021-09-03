@@ -41,7 +41,7 @@ To detect and mitigate a SYN flood DDoS attack within a virtual network
 
 # Network Topology Diagram
 
-<div align="center">![Network Topology Diagram](Images/Network_Topology_Diagram.png)</div>
+<div align="center">![Network Topology Diagram](/Images/Network_Topology_Diagram.png)</div>
 <div align="center">Image 1 : Network Topology Diagram</div><br/>
 
 
