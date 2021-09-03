@@ -59,12 +59,12 @@
 
 ### (Note : Graphs contain results collected using hping3's flood mode)
 
-<div align="center">![Network Topology Diagram](../Images/drop_rate_per_attacker.png)</div>
+![Network Topology Diagram](../Images/drop_rate_per_attacker.png)
 <div align="center">Image 1 : Drop rate based on number of attackers</div>
 
 ***
 
-<div align="center">![Network Topology Diagram](../Images/attack_duration.png)</div>
+![Network Topology Diagram](../Images/attack_duration.png)
 <div align="center">Image 1 : The duration attacks ran based on number of attackers</div>  
 
 ### (note : the durations includes the set up time for launching the attack e.g opening xterm windows and typing in commands so this should be considered)
