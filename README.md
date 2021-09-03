@@ -16,7 +16,7 @@
     - project_v_2.py (this version was worked on from week 4-5)[click here](Previous_Application_Versions/project_v_2)
     - project_v_3.py (this version was worked on from week 5-6)[click here](Previous_Application_Versions/project_v_3)
 5. Project Proposal
-    - ProjectSummary_40000631_DamienMcGloin.pdf (the proposal submitted in week 2 - very different from the final application version)[click here](Project Proposal/ProjectSummary_40000631_DamienMcGloin.pdf)
+    - ProjectSummary_40000631_DamienMcGloin.pdf (the proposal submitted in week 2 - very different from the final application version)[click here](Project_Proposal/ProjectSummary_40000631_DamienMcGloin.pdf)
 6. SDN Application
     - project.py (the python application created to defend against a SYN flood ddos attack)[click here](SDN_Application/project.py)
     - projectscenario.yaml (the scenario created containing host names, links, ip addresses etc.)[click here](SDN_Application/projectscenario.yaml)
