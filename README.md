@@ -5,22 +5,22 @@
 # Gitlab Repository
 
 1. Demonstration Video 
-    - presentation.pptx (Video file size was too big for storing on gitlab so only the ppt used is located here)[click here](Demonstration Video/Presentation.pptx)
+    - presentation.pptx (Video file size was too big for storing on gitlab so only the ppt used is located here)[click here](Demonstration_Video/Presentation.pptx)
 2. Development Timeline
-    - timeline.md (file containing screenshots from trello board outlining project timeline)[click here](Development Timeline/timeline.md)
+    - timeline.md (file containing screenshots from trello board outlining project timeline)[click here](Development_Timeline/timeline.md)
 3. Images
     - Functional_Testing_Images [click here](Images/Functional_Testing_Images)
     - Non_Functional_Testing_Images [click here](Images/Non_Functional_Testing_Images)
 4. Previous Application Versions
-    - project_v_1.py (this version was worked on from week 3-4)[click here](Previous Application versions/project_v_1)
-    - project_v_2.py (this version was worked on from week 4-5)[click here](Previous Application versions/project_v_2)
-    - project_v_3.py (this version was worked on from week 5-6)[click here](Previous Application versions/project_v_3)
+    - project_v_1.py (this version was worked on from week 3-4)[click here](Previous_Application_Versions/project_v_1)
+    - project_v_2.py (this version was worked on from week 4-5)[click here](Previous_Application_Versions/project_v_2)
+    - project_v_3.py (this version was worked on from week 5-6)[click here](Previous_Application_Versions/project_v_3)
 5. Project Proposal
     - ProjectSummary_40000631_DamienMcGloin.pdf (the proposal submitted in week 2 - very different from the final application version)[click here](Project Proposal/ProjectSummary_40000631_DamienMcGloin.pdf)
 6. SDN Application
-    - project.py (the python application created to defend against a SYN flood ddos attack)[click here](SDN Application/project.py)
-    - projectscenario.yaml (the scenario created containing host names, links, ip addresses etc.)[click here](SDN Application/projectscenario.yaml)
-    - projecttask.yaml (a file outlining the task - mitigating a SYN flood ddos attack)[click here](SDN Application/projecttask.yaml)
+    - project.py (the python application created to defend against a SYN flood ddos attack)[click here](SDN_Application/project.py)
+    - projectscenario.yaml (the scenario created containing host names, links, ip addresses etc.)[click here](SDN_Application/projectscenario.yaml)
+    - projecttask.yaml (a file outlining the task - mitigating a SYN flood ddos attack)[click here](SDN_Application/projecttask.yaml)
 7. Testing
     - Test_Plan.md (a file providing an overview of testing - functional and non functional including results e.g pass or fail)[click here](Testing/Test_Plan.md)
     - Results.md (a file providing a deeper look at testing - this includes test evidence in the form of screenshots)[click here](Testing/Results.md)
