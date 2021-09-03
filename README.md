@@ -41,7 +41,7 @@ To detect and mitigate a SYN flood DDoS attack within a virtual network
 
 # Network Topology Diagram
 
-<div align="center">![Network Topology Diagram](../Images/Network_Topology_Diagram.png)</div>
+<div align="center">![Network Topology Diagram](Images/Network_Topology_Diagram.png)</div>
 <div align="center">Image 1 : Network Topology Diagram</div><br/>
 
 
@@ -91,14 +91,14 @@ A typical TCP handshake can be seen in the image below. This screenshot was
 captured after creating a http server on a host running on the mininet virtual 
 environment.
 
-<div align="center">![TCP handshake](../Images/TCP_handshake.png)</div>
+<div align="center">![TCP handshake](Images/TCP_handshake.png)</div>
 <div align="center">Image 2 : TCP handshake</div><br/>  
 
 However, without using more advanced traffic generation methods the typical 
 exchange after sending a SYN packet from one host to another within the mininet 
 virtual environment can be seen below.
 
-<div align="center">![SYN ACK Response](../Images/SYN_ACK_Response.png)</div>
+<div align="center">![SYN ACK Response](Images/SYN_ACK_Response.png)</div>
 <div align="center">Image 3 : Typical TCP Exchange Between Hosts</div><br/>  
 
 In this example we can see a SYN, SYN ACK, RST ACK exchange. Therefore, differentiating between a SYN flood 
